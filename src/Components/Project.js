@@ -1,5 +1,5 @@
 import React from "react";
-import githubIcon from "../assets/ui/github.svg";
+// import githubIcon from "../assets/ui/github.svg";
 // import linkIcon from "../assets/ui/link.svg";
 
 function Project({ title, image, description, techstack, previewLink, githubLink }) {
