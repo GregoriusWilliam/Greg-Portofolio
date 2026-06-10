@@ -13,7 +13,7 @@ function Work({ position, company, location, type, duration, description }) {
           </h1>
           <div className="flex items-center gap-2 mt-1">
             <span className="font-pixel text-2xl text-dave-sun">{company}</span>
-            <span className="text-gray-500 font-pixel text-2xl">//</span>
+            <span className="text-gray-500 font-pixel text-2xl">{"//"}</span>
             <span className="font-pixel text-xl text-dave-teal uppercase">{location}</span>
           </div>
         </div>

@@ -28,9 +28,7 @@ function Footer() {
           Mission Complete!
         </p>
         <p className="font-pixel text-2xl text-white opacity-80">
-          Developed by <span className="text-dave-teal">Gregorius William</span> 
-          <span className="mx-4 text-gray-700">|</span> 
-          © 2024 - Blue Hole Edition
+          Developed by <span className="text-dave-teal">Gregorius William</span>
         </p>
         <p className="font-pixel text-lg text-gray-500 mt-2 uppercase tracking-widest">
           All Rights Reserved
