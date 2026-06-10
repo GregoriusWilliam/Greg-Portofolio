@@ -13,25 +13,33 @@ import figma from "./assets/techstack/figma.png";
 
 import projectImage1 from "./assets/projects/project1.png";
 import projectImage2 from "./assets/projects/project2.png";
+import projectImage3 from "./assets/projects/project3.png";
 
-
-
+import profile from "./assets/profile.jpg"; // You can add your photo here
 
 export const personalDetails = {
   name: "Gregorius William Koswari",
   tagline: "Crafting clean and functional web experiences.",
-  img: null, 
-  about: `I am an undergraduate Computer Science student at Bina Nusantara University with a strong passion for software development and technology. 
-  I enjoy building clean, functional, and user-friendly web applications using modern tools and frameworks. `,
-
+  img: profile, 
+  about: `Computer Science student at Binus University with a focus on full-stack web development. I am passionate about building clean, functional, and scalable applications that provide a great user experience.`,
 };
-
 
 export const socialMediaUrl = {
   linkedin: "https://www.linkedin.com/in/gregoriuswilliam",
   github: "https://github.com/gregoriuswilliam",
   instagram : "https://www.instagram.com/gwk3003/",
 };
+
+export const workDetails = [
+  {
+    Position: "Web Developer Intern",
+    Company: "Onero Solution",
+    Location: "Indonesia",
+    Type: "Internship",
+    Duration: "Februari 2026 – 2027",
+    Description: "Developing web applications using PHP, Quasar, and Node.js. I work on both the front-end and back-end, building APIs and UI components.",
+  },
+];
 
 export const eduDetails = [
   {
@@ -55,6 +63,11 @@ export const techStackDetails = {
   csharp: csharp,
   github: github,
   figma: figma,
+  nodejs: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+  express: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+  postgresql: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+  php: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
+  quasar: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/quasar/quasar-original.svg",
 };
 
 
@@ -62,7 +75,7 @@ export const projectDetails = [
   {
     title: "PapuAdventure Travel Website",
     image: projectImage1,
-    description: `A simple website built with HTML, CSS, and JavaScript to showcase and promote the beauty of Papua.`,
+    description: `A travel website to promote tourism in Papua, built with HTML, CSS, and JavaScript.`,
     techstack: "HTML, CSS, JavaScript",
     previewLink: "https://papuadventure-sepia.vercel.app",
     githubLink: "https://github.com/GregoriusWilliam/papuadventure-main",
@@ -70,13 +83,19 @@ export const projectDetails = [
   {
     title: "Alflix Streaming Platform",
     image: projectImage2,
-    description: `A full-stack MERN streaming service platform built with React, Node.js, Express, MongoDB, and Tailwind CSS.`,
+    description: `A movie streaming platform built with the MERN stack (MongoDB, Express, React, Node.js).`,
     techstack: "React.js, Tailwind CSS",
     previewLink: "https://github.com/gregoriuswilliam/alflix",
     githubLink: "https://github.com/gregoriuswilliam/alflix",
   },
-  
-  
+  {
+    title: "Ecommerce website",
+    image: projectImage3,
+    description: `An e-commerce platform built with Express.js, focusing on product management and user flow.`,
+    techstack: "Express.js, JavaScript, Node.js",
+    previewLink: "https://github.com/GregoriusWilliam/Ecommerce-Express",
+    githubLink: "https://github.com/GregoriusWilliam/Ecommerce-Express",
+  },
 ];
 
 
