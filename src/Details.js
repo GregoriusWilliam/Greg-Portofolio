@@ -91,8 +91,8 @@ export const projectDetails = [
   {
     title: "Ecommerce website",
     image: projectImage3,
-    description: `An e-commerce platform built with Express.js, focusing on product management and user flow.`,
-    techstack: "Express.js, JavaScript, Node.js",
+    description: `An e-commerce platform built with Express.js and Quasar, focusing on product management and user flow.`,
+    techstack: "Express.js, Quasar, Node.js",
     previewLink: "https://github.com/GregoriusWilliam/Ecommerce-Express",
     githubLink: "https://github.com/GregoriusWilliam/Ecommerce-Express",
   },

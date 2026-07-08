@@ -129,7 +129,7 @@ function Home() {
       <div className="z-30 px-4 mt-[30vh] md:mt-[20vh]">
         <h1
           ref={h12}
-          className="text-4xl md:text-6xl xl:text-8xl font-title tracking-widest drop-shadow-[0_10px_10px_rgba(0,0,0,0.5)]"
+          className="text-4xl md:text-6xl xl:text-8xl font-title tracking-widest drop-shadow-[0_10px_10px_rgba(0,0,0,0.5)] text-dave-sun"
         >
           <ReactTyped
             strings={[name]}
@@ -142,7 +142,7 @@ function Home() {
 
         <h2
           ref={h13}
-          className="text-xl md:text-4xl xl:text-5xl font-pixel mt-6 md:mt-8 drop-shadow-lg uppercase tracking-[0.1em] md:tracking-[0.2em]"
+          className="text-xl md:text-4xl xl:text-5xl font-pixel mt-6 md:mt-8 drop-shadow-lg uppercase tracking-[0.1em] md:tracking-[0.2em] text-white"
         >
           {tagline}
         </h2>

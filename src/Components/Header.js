@@ -40,7 +40,7 @@ function Header() {
     >
       <div className="container mx-auto flex justify-between items-center py-3 px-4">
         <a href="#home" className="text-xl md:text-2xl font-title text-dave-sun tracking-tighter">
-          DAVE'S_LOG://GREG
+          GREG PORTOFOLIO
         </a>
 
         <button
